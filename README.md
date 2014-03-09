@@ -18,4 +18,4 @@ A simple wrapper around google REST api
 
 ### Example
 
-See example/googleresttest.js
+See https://github.com/mohan43u/googlerest/blob/master/example/googleresttest.js
