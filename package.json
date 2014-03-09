@@ -1,0 +1,27 @@
+{
+  "name": "googlerest",
+  "version": "0.0.1",
+  "description": "wrapper around google api",
+  "main": "./lib/googlerest",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "request": "*",
+    "duplexbufferstream": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohan43u/googlerest"
+  },
+  "keywords": [
+    "google",
+    "rest"
+  ],
+  "author": "Mohan R <mohan43u@gmail.com> (http://mohan43u.wordpress.com)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mohan43u/googlerest/issues"
+  },
+  "homepage": "https://github.com/mohan43u/googlerest"
+}
