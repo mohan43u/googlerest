@@ -26,7 +26,7 @@ var server = http.createServer(function(req, res) {
 	    var apiresultbuf = apiresult.read();
 	    google_access_token = JSON.parse(apiresultbuf.toString()).google_access_token;
 	    if(google_access_token) {
-		fs.writeFileSync(dbfilename, JSON.stringify({'google_access_token': google_access_token}));
+		fs.writeFile(dbfilename, JSON.stringify({'google_access_token': google_access_token}));
 		res.end(JSON.stringify({'oauth2': 'authorized'}));
 	    }
 	    else {
