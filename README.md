@@ -4,11 +4,11 @@ A simple wrapper around google REST api
 
 ### Options
 
-* `google_client_id` registered google app's client_id (default: 33813)
-* `google_client_secret` registered google app's client_secret (default: vFFYBzQXLUvLLhpnAAOKSB6xnuBa50SneYs5M17GhVVanPzek8OknY54SCEE2UzC)
+* `google_client_id` registered google app's client_id (default: 137500406659-cubikdgci0v2t65obo09n8q5bpj3iooh.apps.googleusercontent.com)
+* `google_client_secret` registered google app's client_secret (default: tMWazNthbpjrB-_9x2h1aoy2)
 * `google_redirect_uri` redirect url registered with google app (default: http://localhost:3000/google/authorized)
 * `google_scope` scope for accessing various services (default: https://www.googleapis.com/auth/drive)
-* `google_access_token` google app's access_token (if null, user's will be redirected to google) (default: null)
+* `google_tokens` google app's access_token (if null, user's will be redirected to google) (default: null)
 * `google_protocol` protocol to use to connect to google (default: https)
 * `google_apis_host` hostname to use to connect to google (default: www.googleapis.com)
 * `google_oauth2_host` hostname to use to connect to google for oauth2 (default: accounts.google.com)
