@@ -1,14 +1,13 @@
 {
   "name": "googlerest",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "wrapper around google api",
   "main": "./lib/googlerest",
   "directories": {
     "example": "example"
   },
   "dependencies": {
-    "request": "*",
-    "duplexbufferstream": "*"
+    "tunnel": "*"
   },
   "repository": {
     "type": "git",
