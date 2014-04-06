@@ -62,6 +62,7 @@ var server = http.createServer(function(req, res) {
 	    var gurl = url.parse(req.url, true);
 	    gurl.pathname = pathname.substring(pathname.indexOf('/', 1));
 	    delete gurl.protocol;
+	    delete gurl.hostname;
 	    delete gurl.host;
 	    req.url = url.format(gurl);
 	    googlerest.call_google(req, null, function(response){
