@@ -1,6 +1,6 @@
 {
   "name": "googlerest",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "wrapper around google api",
   "main": "./lib/googlerest",
   "directories": {
